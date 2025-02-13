@@ -22,13 +22,15 @@ The repository is organized as follows:
 
 ---
 ## 📌 Details
-This section provides some details of each document in the respitory.
+This section provides some details of some documents in the respitory.
 
-- ✅ **dat/model_1.pth, model_2.pth and model_3,pth** – They stored different LFM models fitted with DeepIRTools with iw_samples= 5000, 10000, 8000, respectively for Step 1 in empirical study.
-- ✅ **dat/fs_2.pth** – saved factor scores froom model_2, and used this factor store in the end.
-- ✅ **doc/fig** – 
-- ✅ **Visualization Tools** – Built-in support for graphs and analytics.
-- ✅ **Customizable Configuration** – Config files allow easy tuning of parameters.
+- ✅ **dat/model_1.pth, model_2.pth and model_3,pth** – They stored different LFM models fitted with DeepIRTools with iw_samples= 5000, 10000, 8000, respectively for **Step 1** in empirical study.
+- ✅ **dat/fs_2.pth** – saved factor scores froom **model_2.pth**, and used this factor store in the end.
+- ✅ **exp/Simulation_Study_Updated_1.ipynb**  – experiment 1 for simulation study.
+- ✅ **exp/Simulation_Study_Updated_2.ipynb** – experiment 2 which overcomes the TARNet overfitting problem. Same logic as Simulation_Study_Updated_1 except adding the interaction term of **Z** in data generation part, and reducing the number of parameters.
+- ✅ **exp/learning_representation.ipynb** – **Step 1** of fitting the model in empirical study.
+- ✅ **exp/fixing_tarnet.ipynb** – **Step 2** of fitting the model in empirical study, with hyperparameter tuning. Best model's parameters were saved in **dat/nest_model.keras**.
+- ✅ **exp/fixing_tarnet_2.ipynb** –  Same logic as **exp/fixing_tarnet.ipynb** except adding the code to make scatter plot of estimated ITE and simulated ITE. This plot was not included in the paper because the simulated ITE from OLS were almost constant, thus it was not a good representation of the estimation. Note that, the estimated ITE could vary a little bit every time you run, but it wouldn't affect the conclusion of the model comparasions in empirical study.
 
 
 
