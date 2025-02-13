@@ -32,6 +32,7 @@ This section provides some details of some documents in the respitory.
 - ✅ **exp/fixing_tarnet.ipynb** – **Step 2** of fitting the model in empirical study, with hyperparameter tuning. Best model's parameters were saved in **dat/best_model.keras**.
 - ✅ **exp/fixing_tarnet_2.ipynb** –  Same logic as **exp/fixing_tarnet.ipynb** except adding the code to make scatter plot of estimated ITE and simulated ITE. This plot was not included in the paper because the simulated ITE from OLS were almost constant, thus it was not a good representation of the estimation. Note that, the estimated ITE could vary a little bit every time you run, but it wouldn't affect the conclusion of the model comparasions in empirical study.
 
+---
 ## 🚀 Environment 
 Python version is recommended as 3.11.11 or higher. This model is computationally intensive. It is **highly recommended** to use a **GPU** or **TPU** for efficient training. Training on a CPU may take significantly longer.
 
