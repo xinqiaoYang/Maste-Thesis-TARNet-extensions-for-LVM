@@ -16,7 +16,7 @@ datasets and real-world medication data.
 The repository is organized as follows:
 
 - [📜 README.md: Project overview and documentation]
-- [📂 dat/ :Raw ACTG175 dataset, best model paramters, LFM model fitting parameters saved and factor score saved ]
+- [📂 dat/ : Raw ACTG175 dataset, best model paramters, LFM model fitting parameters saved and factor score saved ]
 - [📂 doc/fig : Results in figure format which also appeared in the thesis ]
 - [📂 exp/ : Jupyter notebooks conducted with **Python** for experiments of simulation study and empirical study]
 
